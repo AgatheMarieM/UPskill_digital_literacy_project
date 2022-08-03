@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200&display=swap" rel="stylesheet">
     <title>Projeto FP&AM</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
-        <li><a href="index.html">Home </a></li>
-        <li><a href="what.html">About</a></li>
-        <li><a href="iot.html">Smart Objects</a></li>
-        <li><a href="exemplos.html">Examples</a></li>
-        <li><a href="risks.html">Security Issues</a></li>
-        <li><a href="contact.html">&#9993 </a></li>
+        <ul class="nav-bar">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="what.html">About</a></li>
+            <li><a href="iot.html">Smart Objects</a></li>
+            <li><a href="exemplos.html">Examples</a></li>
+            <li><a href="risks.html">Security Issues</a></li>
+            <li><a href="contact.html">&#9993 </a></li>
+            </ul> 
     </nav>
     <div class="main-content">
         <h2>
@@ -28,19 +33,48 @@
             </tr>
             <tr>
                 <td colspan="1">
-                    <img src="https://www.micro.ai/wp-content/uploads/2018/08/iot-1.jpg" class="round-image" alt="Internet of Things" width="500"/>
+                    <img src="src/depositphotos_147186865-stock-illustration-internet-of-things.jpg" class="round-image" alt="Internet of Things" width="300"/>
                 </td>
                 <td colspan="2">
                     <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        In efficitur consequat erat. In ullamcorper nisl a nisl blandit, a gravida massa consequat. 
-                        Vestibulum ligula augue, ultrices eget lectus sit amet, commodo luctus velit. 
-                        Etiam eget pharetra tellus. Curabitur facilisis libero enim, vitae volutpat justo faucibus quis.  
-                    </p>
+                        The idea to connect objects to the Internet is not new: professors connected a Coke Machine to Internet in the late 1970s or early 1980s, so that they could check from their computers if it was empty or not.[1]
+                        Once we understand what is the "Internet of things", the meaning of "connected objects" is clear: these are the objects connected to this network.
+                        What about "smart objects?".
+                        This is a synonymous to connected objects, where "smart" insists that the object can have a richer set of functions thanks to being connected to the Internet. It can even improve its features (for example, a car driving faster), thanks to updates made to its software through the Internet.
+                        Starting in the 2000s, we moved from small, fun experiments to the development of an entire industry based on this concept of connecting things to the Internet. With decreasing costs for creating connecting objects, and easier protocols to connect (like Wifi, bluetooth and others, which appeared in the late 1990s), connected objects started to become interesting playground for serious innovation.
+                      </p>
                 </td>
             </tr>
         </table>
-        <img href="https://seecontrol.com/wp-content/uploads/2021/08/what-is-iot.jpeg"/>
+        <h3>Anatomy of a connected object</h3>      
+        <table class="table-section">
+            <th>
+                <tr>
+                    <td><h4>Emitter</h4></td>
+                    <td><h4>Receiver</h4></td>
+                </tr>            
+            </th>
+            <tr>
+                <td>
+                    <p> 
+                        A connected object can just broadcast some information without receiving anything.
+                        If the object is sending data, it supposes it has a sensor to measure things around it, so that it can then send this measure. Sensors are pieces of electronic equipment, often quite tiny. The list of sensors is immense and this is just a small sample:
+                        Sending data can be done in several ways:
+                        <ul class="iot-list">
+                            <li>the object sends data at predetermined intervals                                
+                            </li>
+                            <li>or the object sends a signal continuously but is received only when somebody walks by, for example when you walk next to it. In this case the object is called a beacon. It is used in stores to interact with shoppers
+                            </li>
+                        </ul>                        
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        In this case, the connected object can display some information that it receives from the network it is connected to. An object which receives data about air pollution, and shows it on a screen.
+                    </p>
+                </td>
+            </tr>                          
+        </table>       
 
     </div>   
 
