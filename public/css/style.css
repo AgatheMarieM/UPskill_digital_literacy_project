@@ -6,27 +6,45 @@ body, html {
 
 h1 {
     color: blue;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h3 {
+    text-align: center;
+  
+
 }
 
 a {
     text-decoration: none;
-    color:black;
 }
 
 a:active {
     color: purple;
 }
 
-li {
-    display: inline;
-    list-style-type: none;
-}
-
 nav {
-    margin: 20px auto;
+    margin: 30px auto 10px;
     width: 100%;
     text-align: center;
 }
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin: auto 10px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+  }
 
 .footer-links {
     color: #37096e;
