@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:active {
+    color: purple;
+}
+
+nav {
+
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
