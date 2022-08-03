@@ -12,10 +12,8 @@ h1 {
 
 }
 
-h3 {
-    text-align: center;
-  
-
+h2, h3 {
+    text-align: center; 
 }
 
 a {
@@ -47,6 +45,7 @@ li {
 }
 
 footer {
+    background-color: white;
     position: absolute;
     right: 0;
     bottom: 20px;
@@ -54,6 +53,15 @@ footer {
     text-align: center;
   }
 
+  .contact-form {
+    margin: auto;
+    text-align: center;
+    }
+
 .footer-links {
     color: #37096e;
 } 
+
+.main-content {
+    margin: 160px auto;
+}
