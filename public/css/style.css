@@ -1,7 +1,7 @@
 
 body, html {
     height: 100%;
-
+    font-family: 'Catamaran', sans-serif;
 }
 
 h1 {
@@ -18,8 +18,14 @@ a:active {
 }
 
 li {
-    float: left;
+    display: inline;
     list-style-type: none;
+}
+
+nav {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
 }
 
 .footer-links {
