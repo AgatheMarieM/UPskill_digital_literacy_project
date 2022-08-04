@@ -1,8 +1,11 @@
 
-body, html, .container {
-    height: 100%;
-    max-width: 100%;
-    margin: 0;
+html, body {
+    height: auto;
+    width: 100%;
+    margin: 0;    
+}
+
+header, body, footer {
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -10,19 +13,23 @@ h1 {
     color: purple;;
     font-size: 3em;
     text-align: center;   
-
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-a:hover {
-    cursor: pointer;
+aside {
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    font-style: italic;
 }
 
-a:active {
+.active {
     color: purple;
+    font-weight:bold;
 }
 
 nav {
@@ -42,7 +49,17 @@ nav {
 
 .nav-bar li {
     border: 0.5px solid #37096e;
-    border-radius: 10px;
+    border-radius: 32px;
+    display: inline;
+    list-style-type: none;
+    margin: auto 20px;
+    padding: 8px;
+}
+
+.nav-bar li:hover {
+    background-color:hsl(300, 82%, 85%);
+    border: 0.5px solid #4b58cd;
+    border-radius: 32px;
     display: inline;
     list-style-type: none;
     margin: auto 20px;
