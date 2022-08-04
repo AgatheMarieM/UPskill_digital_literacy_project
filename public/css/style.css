@@ -39,7 +39,6 @@ p {
     font-size: 20px;
 }
 
-
 nav {
     background-color: white;
     margin: 0 auto;
@@ -119,7 +118,7 @@ footer {
 }
 
 .nav-bar li:hover {
-    background-color:hsl(300, 82%, 85%);
+    background-color:hsl(242, 100%, 90%);
     border: 0.5px solid #4b58cd;
     border-radius: 32px;
     display: inline;
@@ -127,7 +126,6 @@ footer {
     margin: auto 20px;
     padding: 8px;
 }
-
 
 .row {
     margin-top: 20px;
