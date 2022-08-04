@@ -64,6 +64,10 @@ footer {
     font-weight:bold;
 }
 
+.citations {
+    font-style: italic;
+  }
+
 .contact-form {
     margin: auto;
     text-align: center;
