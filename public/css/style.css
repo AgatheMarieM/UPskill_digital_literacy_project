@@ -10,14 +10,22 @@ header, body, footer {
 }
 
 h1 {
-    color: purple;;
+    color: #371482;
     font-size: 3em;
     text-align: center;   
 }
 
+h2, h3 {
+    color: #371482;
+}
+
 a {
     text-decoration: none;
-    color: black;
+}
+
+a:hover {
+    color: rgb(40, 40, 130);
+    font-weight: bolder;
 }
 
 aside {
@@ -56,9 +64,6 @@ footer {
     color: purple;
     font-weight:bold;
 }
-
-
-
 
 .contact-form {
     margin: auto;
@@ -107,6 +112,10 @@ footer {
     list-style-type: none;
     margin: auto 20px;
     padding: 8px;
+}
+
+.nav-bar li a {
+    color: #37096e;
 }
 
 .nav-bar li:hover {
