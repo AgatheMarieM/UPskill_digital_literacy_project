@@ -80,26 +80,14 @@ footer {
 
 .contact-titles {
         text-align: center;
-    }
-    
-
-.float-container {   
-    display: flex;
-    justify-content: center;
-}
-
-.float-child {
-    width: 25%;
-    float: left;
-    padding: 20px;
-    }  
+    }      
 
 .footer-links {
     color: #37096e;
 }  
 
 .lp-titles {
-    margin-top: 100px;
+    margin-top: 120px;
     text-align: center;    
 }
 
